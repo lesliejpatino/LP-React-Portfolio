@@ -1,0 +1,35 @@
+div #home-div {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: white 3px solid;
+    width: 53%;
+    height: 23rem;
+} 
+
+#about { 
+    color: white;
+    font-size: 30px;
+    padding: 3%;
+    width: 55%;
+    max-height: 100%;
+    float: left;
+} 
+
+#bio {
+    font-size: 15px;
+}
+
+#my-headshot {
+    text-align: end;
+    max-width: 40%;
+    max-height: 100%;
+    float: right;
+}
+
+
+
+

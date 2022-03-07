@@ -37,7 +37,7 @@ export default function Container() {
             {/* // <> */}
             
                 <Nav />
-                <Resume />
+                <Portfolio />
                 <Footer />
             {/* // </> */}
 </div>

@@ -23,9 +23,6 @@ div #contact-page {
     margin-bottom: 12%;
     font-size: 21px;
     padding: 1rem;
-    /* max-height: 30rem; */
-    /* background-color: grey; */
-    overflow:scroll;
 }
 
 input, textarea {

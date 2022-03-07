@@ -1,11 +1,11 @@
 .nav {
     background-color: black;
-    position: fixed;
     width: 100%;
-    z-index: 100;
+    /* z-index: 100; */
     justify-content: end;
     padding:  1%;
     font-size: 21px;
+    height: auto;
 }
 
 .nav-item a {

@@ -1,0 +1,27 @@
+div #resume-div {
+    color: white;
+    margin-top: 12%;
+}
+
+#skills {
+    list-style-type: none;
+}
+
+#my-resume {
+    max-height: 400px;
+    max-width: 90%;
+}
+
+#resume-link {
+    color: white;
+}
+
+#resume-link:hover {
+    color: aqua;
+}
+
+/* #bg-img {
+    z-index: 100;
+    height: 20%;
+    width: 20%;
+} */

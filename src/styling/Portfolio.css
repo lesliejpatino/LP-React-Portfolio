@@ -1,0 +1,12 @@
+.project-images {
+    max-width: 100%;
+    opacity: 70%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.project-images:hover {
+    opacity: 100%;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}

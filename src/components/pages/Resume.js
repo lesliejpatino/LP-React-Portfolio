@@ -3,6 +3,7 @@ import '../../styling/Resume.css'
 
 export default function Resume() {
     const myResume = process.env.PUBLIC_URL + '/assets/Resume.pdf';
+    // const bgImg = process.env.PUBLIC_URL + '/assets/images/bkg.png';
 
     return (
         <>
@@ -29,6 +30,8 @@ export default function Resume() {
                     </embed>
 
                 </div>
+
+                {/* <img src={bgImg} alt="background" id="bg-img"/> */}
             </div>
             </div>
         </>

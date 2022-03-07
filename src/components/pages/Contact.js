@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../styling/Contact.css'
-import CurvedArrow from "react-curved-arrow";
+// import CurvedArrow from "react-curved-arrow";
 
 export default function Contact() {
 
@@ -12,7 +12,7 @@ export default function Contact() {
         <>
             <div className="col-10 my-5" id="contact-page">
                 <div className="row justify-content-between m-4">
-                    <div className="col-5" id="contact-me">
+                    <div className="col-lg-5 col-sm-9 m-3" id="contact-me">
                         <h1>Leslie Patino</h1>
                         <h3>full stack web developer</h3>
 
@@ -24,7 +24,7 @@ export default function Contact() {
                         {/* ADD CONTACT LINKS HERE */}
                     </div>
 
-                    <div type="form" className="col-5" id="contact-form">
+                    <div type="form" className="col-lg-5 col-sm-9" id="contact-form">
                         {/* <form id="contact-form"> */}
                         <h2 className="text-center">Let's Connect! </h2> <br />
                         <label for="name">Name</label> <br />

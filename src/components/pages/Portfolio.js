@@ -15,7 +15,7 @@ export default function Portfolio() {
         <>
             <div className="col-8 m-5 text-center">
                 <div className="row mb-5">
-                    <div className="card col-5 mx-4 mb-5 border bg-black border bg-black project-cards">
+                    <div className="card col-lg-5 col-md-5 col-sm-8 mx-4 mb-5 border bg-black border bg-black project-cards">
                         <a href="https://dry-badlands-77030.herokuapp.com/" rel="noreferrer" target="_blank">
                             <h4>Organizarr</h4>
                         </a>
@@ -25,7 +25,7 @@ export default function Portfolio() {
                         </a>
                     </div>
 
-                    <div className="card col-5 mx-4 mb-5 border bg-black project-cards">
+                    <div className="card col-lg-5 col-md-5 col-sm-8 mx-4 mb-5 border bg-black project-cards">
                         <a href="https://lesliejpatino.github.io/Find-Covid-Testing/" rel="noreferrer" target="_blank">
                             <h4>Map-A-Covid-Test</h4>
                         </a>
@@ -35,7 +35,7 @@ export default function Portfolio() {
                         </a>
                     </div>
 
-                    <div className="card col-5 mx-4 mb-5 border bg-black project-cards">
+                    <div className="card col-lg-5 col-md-5 col-sm-8 mx-4 mb-5 border bg-black project-cards">
                         <a href="https://github.com/lesliejpatino/AllThingsTech-Blog" rel="noreferrer" target="_blank">
                             <h4>All Things Tech - Blog</h4>
                         </a>
@@ -46,7 +46,7 @@ export default function Portfolio() {
 
                     </div>
 
-                    <div className="card col-5 mx-4 mb-5 border bg-black project-cards">
+                    <div className="card col-lg-5 col-md-5 col-sm-8 mx-4 mb-5 border bg-black project-cards">
                         <a href="https://obscure-waters-08324.herokuapp.com/" rel="noreferrer" target="_blank">
                             <h4>Save A Note</h4>
                         </a>
@@ -57,7 +57,7 @@ export default function Portfolio() {
 
                     </div>
 
-                    <div className="card col-5 mx-4 mb-5 border bg-black project-cards">
+                    <div className="card col-lg-5 col-md-5 col-sm-8 mx-4 mb-5 border bg-black project-cards">
                         <a href="https://lesliejpatino.github.io/Password-Generator/" rel="noreferrer" target="_blank">
                             <h4>Password Generator</h4>
                         </a>
@@ -69,7 +69,7 @@ export default function Portfolio() {
 
                     </div>
 
-                    <div className="card col-5 mx-4 mb-5 border bg-black project-cards">
+                    <div className="card col-lg-5 col-md-7 col-sm-8 mx-4 mb-5 border bg-black project-cards">
                         <a href="https://lesliejpatino.github.io/Schedule-Your-Workday/" rel="noreferrer" target="_blank">
                             <h4>Work Day Scheduler</h4>
                         </a>

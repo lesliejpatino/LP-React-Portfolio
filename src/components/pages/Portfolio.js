@@ -14,73 +14,72 @@ export default function Portfolio() {
     return (
         <>
             <div className="col-8 m-5 text-center">
-                <div className="row">
-                    <div className="card col-5 mx-4 mb-4 border bg-black border bg-black project-cards">
+                <div className="row mb-5">
+                    <div className="card col-5 mx-4 mb-5 border bg-black border bg-black project-cards">
                         <a href="https://dry-badlands-77030.herokuapp.com/" rel="noreferrer" target="_blank">
                             <h4>Organizarr</h4>
                         </a>
                         <img className="project-images" src={organizarr} alt="org site" /> <br />
                         <a href="https://github.com/lesliejpatino/Organizarr" rel="noreferrer" target="_blank">
-                            <img src={gitHubLogo} alt="github-logo" id="repo-link" />
+                            <img src={gitHubLogo} alt="github-logo" className="m-2" id="repo-link" />
                         </a>
                     </div>
 
-                    <div className="card col-5 mx-4 mb-4 border bg-black project-cards">
+                    <div className="card col-5 mx-4 mb-5 border bg-black project-cards">
                         <a href="https://lesliejpatino.github.io/Find-Covid-Testing/" rel="noreferrer" target="_blank">
                             <h4>Map-A-Covid-Test</h4>
                         </a>
                         <img className="project-images" src={covid} alt="covid site" /> <br />
                         <a href="https://github.com/lesliejpatino/Find-Covid-Testing" rel="noreferrer" target="_blank">
-                            <img src={gitHubLogo} alt="github-logo" id="repo-link" />
+                            <img src={gitHubLogo} alt="github-logo" className="m-2" id="repo-link" />
                         </a>
                     </div>
 
-                    <div className="card col-5 mx-4 mb-4 border bg-black project-cards">
+                    <div className="card col-5 mx-4 mb-5 border bg-black project-cards">
                         <a href="https://github.com/lesliejpatino/AllThingsTech-Blog" rel="noreferrer" target="_blank">
                             <h4>All Things Tech - Blog</h4>
                         </a>
                         <img className="project-images" src={blog} alt="blog site" /> <br />
                         <a href="https://github.com/lesliejpatino/AllThingsTech-Blog" rel="noreferrer" target="_blank">
-                            <img src={gitHubLogo} alt="github-logo" id="repo-link" />
+                            <img src={gitHubLogo} alt="github-logo" className="m-2" id="repo-link" />
                         </a>
 
                     </div>
 
-                    <div className="card col-5 mx-4 mb-4 border bg-black project-cards">
+                    <div className="card col-5 mx-4 mb-5 border bg-black project-cards">
                         <a href="https://obscure-waters-08324.herokuapp.com/" rel="noreferrer" target="_blank">
                             <h4>Save A Note</h4>
                         </a>
                         <img className="project-images" src={notes} alt="notes site" /> <br />
                         <a href="https://github.com/lesliejpatino/Note-Saver" rel="noreferrer" target="_blank">
-                            <img src={gitHubLogo} alt="github-logo" id="repo-link" />
+                            <img src={gitHubLogo} alt="github-logo" className="m-2" id="repo-link" />
                         </a>
 
                     </div>
 
-                    <div className="card col-5 mx-4 mb-4 border bg-black project-cards">
+                    <div className="card col-5 mx-4 mb-5 border bg-black project-cards">
                         <a href="https://lesliejpatino.github.io/Password-Generator/" rel="noreferrer" target="_blank">
-                            <h4>Password Generator</h4></a>
+                            <h4>Password Generator</h4>
+                        </a>
                         <img className="project-images" src={pwdGenerator} alt="pwd site" /> <br />
                         <a href="https://github.com/lesliejpatino/Password-Generator" rel="noreferrer" target="_blank">
-                            <img src={gitHubLogo} alt="github-logo" id="repo-link" />
+                            <img src={gitHubLogo} alt="github-logo" className="m-2" id="repo-link" />
                         </a>
 
 
                     </div>
 
-                    <div className="card col-5 mx-4 mb-4 border bg-black project-cards">
+                    <div className="card col-5 mx-4 mb-5 border bg-black project-cards">
                         <a href="https://lesliejpatino.github.io/Schedule-Your-Workday/" rel="noreferrer" target="_blank">
                             <h4>Work Day Scheduler</h4>
                         </a>
-                        <img className="project-images" src={scheduler} alt="scheduler site" />
+                        <img className="project-images" src={scheduler} alt="scheduler site" /> <br />
                         <a href="https://github.com/lesliejpatino/Schedule-Your-Workday" rel="noreferrer" target="_blank">
-                            <img src={gitHubLogo} alt="github-logo" id="repo-link" />
+                            <img src={gitHubLogo} alt="github-logo" className="m-2" id="repo-link" />
                         </a>
                     </div>
-
                 </div>
             </div>
         </>
-
     );
 };

@@ -1,6 +1,6 @@
 # Leslie Patino | Full Stack Web Developer Portfolio
 
-[Welcome to my portfolio,](https://lesliejpatino.github.io/LP-React-Portfolio/) I'm glad you're here! In this version of my portfolio, you're going to find a single page React application that was created using React, React DOM, and Bootstrap.
+[Welcome to my portfolio,](https://lesliejpatino.github.io/LP-React-Portfolio/) I'm glad you're here! In this version of my portfolio, you're going to find a single page application that was created using React, React DOM, and Bootstrap.
 
 ## Table of Contents
 * [Demo](#demo)
@@ -10,7 +10,7 @@
 * [License](#license)
 
 ## Demo
-[View Portfolio](https://lesliejpatino.github.io/LP-React-Portfolio/)
+[View Portfolio](https://lesliejpatino.github.io/LP-React-Portfolio/) <br/>
 ![about-page](public/assets/images/About.png)
 
 ## Technologies Used

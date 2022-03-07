@@ -6,7 +6,7 @@ export default function About() {
 
 
     return (
-        <div className="col-7" id="home-div">
+        <div className="col-7 my-5" id="home-div">
             <div id="about">
                 <h1>Hi,
                     <br />

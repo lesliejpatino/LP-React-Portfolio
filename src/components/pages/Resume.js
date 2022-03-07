@@ -7,9 +7,9 @@ export default function Resume() {
 
     return (
         <>
-            <div className="col-12 justify-content-between white my-5 mx-4">
-                <div className="row border" id="resume-div">
-                    <div className="col-4 border text-center" id="leslie-exp">
+            <div className="col-10 justify-content-between my-5" id="resume-div">
+                <div className="row">
+                    <div className="col-5 text-center mt-3" id="leslie-exp">
                         <h2>Strengths</h2> <br />
 
                         <p>full stack web development</p>
@@ -25,11 +25,11 @@ export default function Resume() {
                         <br />
                     </div>
 
-                    <div className="col-8 border text-end mb-5" id="my-resume">
+                    <div className="col-7 text-end mb-5" id="my-resume">
                         <embed
                             src={myResume}
                             width="550"
-                            height="800">
+                            height="700">
                         </embed>
 
                     </div>

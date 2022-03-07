@@ -7,38 +7,36 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
 export default function Container() {
-    // const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('About');
 
-    // const renderPage = () => {
-    //     if (currentPage === 'About') {
-    //         return <About />;
-    //     }
-    //     if (currentPage === 'Portfolio') {
-    //         return <Portfolio />;
-    //     }
-    //     if (currentPage === 'Contact') {
-    //         return <Contact />;
-    //     }
-    //     return <Resume />;
-    // };
-    //         return <Contact />;
-    // };
+    const renderPage = () => {
+        if (currentPage === 'About') {
+            return <About />;
+        }
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />;
+        }
+        if (currentPage === 'Contact') {
+            return <Contact />;
+        }
+        return <Resume />;
+    };
 
-    // const handlePageChange = (page) => setCurrentPage(page);
+    const handlePageChange = (page) => setCurrentPage(page);
 
 
     return (
         <div>
-            {/* <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
-            <Footer /> */}
+            <Footer />
 
 
             {/* // <> */}
             
-                <Nav />
-                <Portfolio />
-                <Footer />
+                {/* <Nav />
+                <About />
+                <Footer /> */}
             {/* // </> */}
 </div>
     );

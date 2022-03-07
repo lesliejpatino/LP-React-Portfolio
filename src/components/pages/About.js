@@ -6,12 +6,12 @@ export default function About() {
 
 
     return (
-        <div id="home-div">
+        <div className="col-7" id="home-div">
             <div id="about">
                 <h1>Hi,
                     <br />
                     I'm Leslie</h1>
-                <h3>full stack web developer</h3>
+                <h4>full stack web developer</h4>
                 <hr />
                 <p id="bio">
                     Welcome! I'm glad you're here. <br /> <br /> 

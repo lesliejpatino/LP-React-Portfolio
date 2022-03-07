@@ -1,11 +1,8 @@
 .nav {
     background-color: black;
-    width: 100%;
-    /* z-index: 100; */
+    float: right;
     justify-content: end;
-    padding:  1%;
     font-size: 21px;
-    height: auto;
 }
 
 .nav-item a {
@@ -14,4 +11,8 @@
 
 .nav-item a:hover {
     color: aqua;
+}
+
+#header-name {
+    float: left;
 }

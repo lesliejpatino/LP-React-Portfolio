@@ -3,20 +3,21 @@
 [Welcome to my portfolio,](https://lesliejpatino.github.io/LP-React-Portfolio/) I'm glad you're here! In this version of my portfolio, you're going to find a single page React application that was created using React, React DOM, and Bootstrap.
 
 ## Table of Contents
-*[Demo](#demo)
-*[Technologies Used](technologies-used)
-*[Usage](#usage)
-*[Author](#author)
-*[License](#license)
+* [Demo](#demo)
+* [Technologies Used](technologies-used)
+* [Usage](#usage)
+* [Author](#author)
+* [License](#license)
 
 ## Demo
 [View Portfolio](https://lesliejpatino.github.io/LP-React-Portfolio/)
+![about-page](public/assets/images/About.png)
 
 ## Technologies Used
-*[React](https://reactjs.org/)
-*[React DOM](https://reactjs.org/docs/react-dom.html)
-*[Bootstrap](https://getbootstrap.com/)
-*[Node js](https://nodejs.org/en/)
+* [React](https://reactjs.org/)
+* [React DOM](https://reactjs.org/docs/react-dom.html)
+* [Bootstrap](https://getbootstrap.com/)
+* [Node js](https://nodejs.org/en/)
 
 ## Usage
 Run the following script to see the application in development mode: 

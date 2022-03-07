@@ -14,8 +14,8 @@ export default function About() {
                 <h3>full stack web developer</h3>
                 <hr />
                 <p id="bio">
-                    Glad you're here! Please have a look around and get in touch if you would like to work together. <br />
-                    My top value is growth and it drives everything I do! I thrive in an environment that requires equal parts creative and logical thinking - which is why I love web development. 
+                    Welcome! I'm glad you're here. <br /> <br /> 
+                    I thrive in environments that require equal parts creative and logical thinking - which is why I became a web developer. My favorite thing about this career path is the never ending opportunity for growth.
                 </p>
             </div>
                 <img src={headshot} alt="leslies headshot" id="my-headshot"/>

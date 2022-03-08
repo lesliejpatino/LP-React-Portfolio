@@ -2,6 +2,12 @@ import React from "react";
 import "../styling/Nav.css";
 
 function Nav({ currentPage, handlePageChange }) {
+  const style = {
+    link: {
+      color: "white"
+      // font-weight: "bolder",
+    }
+  }
   return (
     <>
       <div className="col-12 m-1">
@@ -13,6 +19,7 @@ function Nav({ currentPage, handlePageChange }) {
                 href="#about"
                 onClick={() => handlePageChange("About")}
                 className={currentPage === "About" ? "nav-link active" : "nav-link"}
+                style={style.link}
               >
                 About Me
               </a>
@@ -25,6 +32,7 @@ function Nav({ currentPage, handlePageChange }) {
                 className={
                   currentPage === "Portfolio" ? "nav-link active" : "nav-link"
                 }
+                style={style.link}
               >
                 Portfolio
               </a>
@@ -34,6 +42,7 @@ function Nav({ currentPage, handlePageChange }) {
                 href="#contact"
                 onClick={() => handlePageChange("Contact")}
                 className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+                style={style.link}
               >
                 Contact Me
               </a>
@@ -43,6 +52,7 @@ function Nav({ currentPage, handlePageChange }) {
                 href="#resume"
                 onClick={() => handlePageChange("Resume")}
                 className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+                style={style.link}
               >
                 Resume
               </a>

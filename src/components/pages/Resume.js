@@ -28,9 +28,8 @@ export default function Resume() {
                         <p>Express</p>
                         <p>mySql</p>
                         <p>Sequelize</p>
-                        <p>Javascript</p>
-                        <p>jQuery</p>
-                        <p>Ajax & APIs</p>
+                        <p>MongoDB</p>
+                        <p>Mongoose</p>
 
                         {/* <p>full stack web development</p>
                         <p>management/leadership</p>

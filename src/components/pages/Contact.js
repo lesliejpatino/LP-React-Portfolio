@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactForm from './ContactForm.js'
 import '../../styling/Contact.css'
 // import CurvedArrow from "react-curved-arrow";
 
@@ -18,15 +19,17 @@ export default function Contact() {
 
                         <img src={headshot} alt="leslies headshot" id="contact-img" />
                         <br />
-                        <p> Would you like to connect? Fill out the contact form & I'll be in touch within 2 business days or contact me directly at the links below!</p>
-
-                        You can also find me at any of the following:
+                        <p> Would you like to connect? Please fill out the contact form & I'll be in touch within 2 business days.
+                            You can also contact me directly at the links below!</p>
                         {/* ADD CONTACT LINKS HERE */}
                     </div>
 
                     <div type="form" className="col-lg-5 col-sm-9" id="contact-form">
+
+                        <ContactForm />
+
                         {/* <form id="contact-form"> */}
-                        <h2 className="text-center">Let's Connect! </h2> <br />
+                        {/* <h2 className="text-center">Let's Connect! </h2> <br />
                         <label for="name">Name</label> <br />
                         <input type="text" id="user-name" /> <br /><br />
 
@@ -35,7 +38,12 @@ export default function Contact() {
 
                         <label for="message">Enter Your Message:</label><br />
                         <textarea type="message" id="user-msg" /><br />
-                        <input type="submit" value="Submit" /> <br />
+                        <input type="submit" value="Submit" /> <br /> */}
+
+
+
+
+
                         {/* </form> */}
 
                         {/* <div className="wrapper bg-white">

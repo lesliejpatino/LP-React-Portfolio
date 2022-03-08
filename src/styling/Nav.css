@@ -1,18 +1,21 @@
 .nav {
-    background-color: black;
     float: right;
     justify-content: end;
     font-size: 19px;
+    font-weight: bolder;
 }
 
-.nav-item a {
+a {
     color: white;
 }
 
-.nav-item a:hover {
+a:hover {
     color: aqua;
 }
 
-#header-name {
-    float: left;
+#my-name{
+    align-items: left;
+    text-align: left;
+    text-decoration: none;
+    font-size: 30px;
 }

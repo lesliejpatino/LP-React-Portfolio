@@ -1,13 +1,9 @@
 import React from 'react'
 import ContactForm from './ContactForm.js'
 import '../../styling/Contact.css'
-// import CurvedArrow from "react-curved-arrow";
 
 export default function Contact() {
-
-
     const headshot = process.env.PUBLIC_URL + '/assets/images/headshot3.png';
-
 
     return (
         <>
@@ -25,32 +21,7 @@ export default function Contact() {
                     </div>
 
                     <div type="form" className="col-lg-5 col-sm-9" id="contact-form">
-
                         <ContactForm />
-
-                        {/* <form id="contact-form"> */}
-                        {/* <h2 className="text-center">Let's Connect! </h2> <br />
-                        <label for="name">Name</label> <br />
-                        <input type="text" id="user-name" /> <br /><br />
-
-                        <label for="email">Email</label> <br />
-                        <input type="email" id="user-email" /> <br /><br />
-
-                        <label for="message">Enter Your Message:</label><br />
-                        <textarea type="message" id="user-msg" /><br />
-                        <input type="submit" value="Submit" /> <br /> */}
-
-
-
-
-
-                        {/* </form> */}
-
-                        {/* <div className="wrapper bg-white">
-                            <div className="from" />
-                            <div className="to" />
-                            <CurvedArrow fromSelector=".from" toSelector=".to" middleY={33} />
-                        </div> */}
                     </div>
                 </div>
             </div>

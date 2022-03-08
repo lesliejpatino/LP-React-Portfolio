@@ -69,7 +69,7 @@ export default function Portfolio() {
 
                     </div>
 
-                    <div className="card col-lg-5 col-md-7 col-sm-8 mx-4 mb-5 border bg-black project-cards">
+                    <div className="card col-lg-5 col-md-5 col-sm-8 mx-4 mb-5 border bg-black project-cards">
                         <a href="https://lesliejpatino.github.io/Schedule-Your-Workday/" rel="noreferrer" target="_blank">
                             <h4>Work Day Scheduler</h4>
                         </a>

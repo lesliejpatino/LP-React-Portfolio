@@ -14,22 +14,47 @@ export default function ContactForm() {
     }
     return (
         <div>
-            <fieldset id="fs-frm-inputs">
+            <form onSubmit={handleSubmit} id="fs-frm-inputs">
                 <label for="Name">Name</label>
-                <input type="text" name="name" id="contact-name" placeholder="" required="" onMouseOut={MouseOut}/>
+                <input
+                    className="form-control"
+                    id="contact-name"
+                    type="text"
+                    name="name"
+                    required
+                    onMouseOut={MouseOut}
+                />
+                <ValidationError prefix="Name" field="name" errors={state.errors} />
+
                 <br />
 
                 <label for="email-address">Email Address</label>
-                <input type="email" name="_replyto" id="contact-email" placeholder="you@email.com" required="" onMouseOut={MouseOut}/>
+                <input
+                    className="form-control"
+                    id="contact-email"
+                    type="email"
+                    name="_replyto"
+                    placeholder="you@email.com"
+                    required
+                    onMouseOut={MouseOut}
+                />
+                <ValidationError prefix="Email" field="email" errors={state.errors} />
+
                 <br />
 
                 <label for="message">Your Message: </label>
-                <textarea rows="5" name="message" id="message" placeholder="" required="" onMouseOut={MouseOut}></textarea>
-                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
+                <textarea
+                    rows="5"
+                    name="message"
+                    id="message"
+                    required
+                    onMouseOut={MouseOut}
+                />
 
-            </fieldset>
-            <input type="submit" value="Submit" />
+                <ValidationError prefix="Message" field="message" errors={state.errors} />
 
+                <button type="submit" value="Submit" disabled={state.submitting}> Submit </button>
+            </form>
         </div>
     )
 };
